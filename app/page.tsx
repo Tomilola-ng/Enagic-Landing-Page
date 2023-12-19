@@ -9,19 +9,22 @@ export default function Home() {
     },
   ];
   return (
-    <main className="bg-blue-300">
-      <section className="max-container flex-col md:flex-row flexBetween w-full gap-6 min-h-[60vh]">
-        <h1 className="text-xl md:text-2xl font-semibold md:font-bold">
-          Enagic Kangen Ionized Water Machine in Nigeria
-        </h1>
-        <Image
-          src="/enagic.png"
-          width={1568}
-          height={1975}
-          alt="Enagic Kangen Ionized Water Machine"
-        />
-      </section>
-      <section className="md:w-full max-container">
+    <main className="">
+      <div className="bg-blue-300">
+        <section className="max-container flex-col md:flex-row flexBetween w-full gap-6 min-h-[60vh] mb-4">
+          <h1 className="text-xl md:text-2xl font-semibold md:font-bold">
+            Enagic Kangen Ionized Water Machine in Nigeria
+          </h1>
+          <Image
+            src="/enagic.png"
+            width={1568}
+            height={1975}
+            className="max-w-[400px] w-full"
+            alt="Enagic Kangen Ionized Water Machine"
+          />
+        </section>
+      </div>
+      <section className="md:w-full max-container mb-4">
         <h1 className="text-xl md:text-2xl font-semibold md:font-bold w-full text-center mb-2">
           What is the Kangen Enagic Ionized Water Machine used for
         </h1>
